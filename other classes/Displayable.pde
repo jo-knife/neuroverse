@@ -1,11 +1,4 @@
-
 interface Displayable {
-    PShape shape;
-       
-  PShape getShape(){
-  }
-  
-  void updateShape(PShape newpattern){
-  }
-
+    PShape getShape();
+    void setShape(PShape newShape);
 }
